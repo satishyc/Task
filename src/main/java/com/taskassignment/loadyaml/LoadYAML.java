@@ -14,7 +14,7 @@ public class LoadYAML {
         Logger logger = Logger.getLogger(
                 KafkaTopicWriter.class.getName());
 
-        String confPath="src/main/java/config.yaml";
+        String confPath="/home/ubuntu/Downloads/javabackend/Task/src/main/java/config.yaml";
         Map conf = new HashMap();
 
         Yaml yaml = new Yaml();
